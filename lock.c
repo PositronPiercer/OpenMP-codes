@@ -6,7 +6,7 @@
 #define AR_LENGTH 1000000
 
 typedef struct g{
-    int threadId; // the thread which holds the lock currently. -1 if no one holds
+    int threadId; // the thread which holds the lock currently
     int operatingThreads;
     int currentThread;
 }mylock;
